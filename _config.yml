@@ -80,5 +80,5 @@ theme: hexo-theme-next-6.2.0
 deploy:
   type: git
   repo: https://github.com/GuQiangJS/Study.git
-  branch: [Master]
+  branch: [master]
   message:

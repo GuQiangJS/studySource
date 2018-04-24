@@ -1,6 +1,8 @@
 ---
 title: 一些个人常用的网站集合
 description: <!--more-->
+photos:
+ - /2018/04/24/website/website.png
 ---
 
 ### Google
@@ -53,6 +55,8 @@ description: <!--more-->
 
 [https://icons8.com/](https://icons8.com/)
 
+[Font Awesome](https://fontawesome.com/)
+
 ### TensorFlow
 
 [从源代码安装 TensorFlow](https://www.tensorflow.org/install/install_sources)
@@ -60,6 +64,10 @@ description: <!--more-->
 [Deep Learning 中文翻译](https://github.com/exacity/deeplearningbook-chinese)
 
 [TensorFlow 官方网址](https://www.tensorflow.org/)
+
+### 素材
+
+[https://pxhere.com/](https://pxhere.com/)
 
 ### 其他
 

@@ -1636,6 +1636,7 @@ pre .javascript .function {
   max-width: 100%;
   max-height: 100%;
   border: none;
+  box-shadow: 0px -1px 25px rgba(0,0,0,0.1), 0px 1px 25px rgba(0,0,0,0.5);
 }
 .fancybox-close,
 .fancybox-close:hover {
@@ -1826,7 +1827,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8cad08;
+  background: #8526d0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2674,7 +2675,8 @@ hr {
   display: none;
 }
 .posts-expand .post {
-  margin-top: 120px;
+  margin-top: 40px;
+  border-bottom: 1px solid #eee;
 }
 .posts-expand .post:first-child {
   margin-top: 0;
@@ -2784,7 +2786,7 @@ hr {
   display: none;
 }
 .page-post-detail .post-meta {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .pagination {
   margin: 120px 0 0;

@@ -174,7 +174,6 @@ social_icons:
   # To encrypt links above use https://www.base64encode.org
   # Example encoded link: `GitHub: aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ= || github`
   exturl: false
-  GitHub: github
 
 # Follow me on GitHub banner in right-top corner.
 # Usage: `permalink || title`
@@ -890,7 +889,7 @@ vendors:
 
   # Internal version: 4.6.2
   # See: http://fontawesome.io/
-  fontawesome:
+  fontawesome: http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 
   # Internal version: 1
   # https://www.algolia.com

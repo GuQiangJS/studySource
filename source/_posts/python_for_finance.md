@@ -54,3 +54,133 @@ description: <!—more—->
 
 ### 第六章 金融时间序列
 
+#### 6.2 金融数据
+
+https://github.com/GuQiangJS/finance-datareader-py
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+from finance_datareader_py.netease.daily import NetEaseDailyReader
+
+df = NetEaseDailyReader('000002').read()
+df = df.tail(n=100)
+df = df.replace(0, np.nan)
+df = df.fillna(method='ffill')
+df.plot(y='Close')
+plt.show()
+```
+
+![1531288797710](assets/1531288797710.png)
+
+根据每日收盘价返回对数收益率。
+
+```python
+from finance_datareader_py.netease.daily import NetEaseDailyReader
+
+df = NetEaseDailyReader('000002').read()
+df['Return'] = df['Close'] / df['Close'].shift(1)
+print(df[['Close', 'Return']].tail())
+```
+
+```
+            Close    Return
+                           
+2018-07-04  23.00  0.982067
+2018-07-05  23.05  1.002174
+2018-07-06  23.21  1.006941
+2018-07-09  24.01  1.034468
+2018-07-10  24.15  1.005831
+```
+
+> **波动率聚集**：波动率不是长期恒定的；既有高波动率时期（正负收益都很高），也有低波动率时期
+>
+> **杠杆效应**：一般来说，波动性的股票市场收益是负相关的；当市场下跌的时候波动性升高，反之亦然。
+
+```python
+# 收盘价与回报率的对应图表
+df[['Close', 'Return']].plot(subplots=True, figsize=(8, 5))
+plt.show()
+```
+
+![1531293738672](assets/1531293738672.png)
+
+[移动平均](https://zh.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87)
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from finance_datareader_py.netease.daily import NetEaseDailyReader
+
+df = NetEaseDailyReader('601398').read()
+df['Return'] = np.log(df['Close'] / df['Close'].shift(1))
+print(df[['Close', 'Return']].tail())
+df['42d'] = pd.rolling_mean(df['Close'], window=42)
+df['252d'] = pd.rolling_mean(df['Close'], window=252)
+print(df[['Close', '42d', '252d']].tail())
+df[['Close', '42d', '252d']].tail(n=1000).plot(figsize=(8, 5))
+plt.show()
+```
+
+![1531294064382](assets/1531294064382.png)
+
+#### 6.3 回归分析
+
+[最小二乘法](https://zh.wikipedia.org/wiki/%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E6%B3%95)
+
+### 第七章 输入输出操作
+
+#### 7.3 PyTables的快速I/O
+
+[PyTables ](https://www.pytables.org/index.html)是 Python 与 HDF5 数据库/文件标准的结合(https://www.hdfgroup.org/)
+
+> PyTables可以把大数据直接写入本地硬盘而并不使用任何数据库管理软件和SQL 
+
+##### 7.3.4 内存外计算
+
+[numexpr](https://github.com/pydata/numexpr)
+
+#### 延伸阅读
+
+* 用 pickle 进行的 Pytbon 对象序列化参见如下文梢: http://docs.python.orgl2/library/pickle.html 。
+
+* SciPy 网站上提供 NumPy 1/0 能力的概述: http://docs.scipy.orgldoc/numpy/referencc/rolltines.io.htm1 。
+* pandas 的I/0 参见在线文档的相应章节: http://pandas.pydata.orglpandas-docs/stab1e/io.html 。
+* PyTables 首页提供教程和详细文梢: http://www.pytables.org
+
+### 第八章 高性能Python
+
+#### 延伸阅读
+
+* numexpr 的细节参见http://github.com/pydata/nwnexpr
+* IPytbon.parallel 在这里介绍: http://ipython.org!ipython-doc/stable/parallel
+* multiprocessing 模块的文稍: https://docs.python.org/2/library/multiprocessing.html
+
+* Numba 的信息、可以在http://github.com/numbalnumba 找到
+* http://cython.org是Cython 编译器项目的首页
+* NumbaPro 的文树可以参见http://docs.continuum.io/nwnbapro
+
+### 第九章 数学工具
+
+#### 9.1 逼近法
+
+[逼近理论](https://zh.wikipedia.org/wiki/%E9%80%BC%E8%BF%91%E7%90%86%E8%AE%BA) 
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+def f(x):
+    return np.sin(x) + 0.5 * x
+
+x = np.linspace(-2 * np.pi, 2 * np.pi, 50)
+plt.plot(x, f(x), 'b')
+plt.grid(True)
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.show()
+```
+
+![1531297702083](assets/1531297702083.png)
+

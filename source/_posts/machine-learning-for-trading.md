@@ -12,6 +12,7 @@ categories:
  - 金融
  - 股票
 description: <!—more—->
+typora-root-url: machine-learning-for-trading
 ---
 
 教程Youtube链接:[https://www.youtube.com/playlist?list=PLAwxTw4SYaPnIRwl6rad_mYwEk4Gmj7Mx](https://www.youtube.com/playlist?list=PLAwxTw4SYaPnIRwl6rad_mYwEk4Gmj7Mx)
@@ -61,7 +62,7 @@ df.plot()
 plt.show()
 ```
 
-![1531304006175](machine-learning-for-trading.assets/1531304006175.png)
+![1531304006175](1531304006175.png)
 
 #### Pandas dataframe recap
 
@@ -223,7 +224,7 @@ df.loc['2017-01-01':'2017-12-31'].plot()
 plt.show()
 ```
 
-![1531383436936](assets/1531383436936.png)
+![1531383436936](1531383436936.png)
 
 #### Normalizing (数据归一化)
 
@@ -236,7 +237,7 @@ normalize_data(df.loc['2017-01-01':'2017-12-31']).plot()
 
 让Dataframe的每一行数据除以第一行的值，从而使所有数据从1开始。
 
-![1531384011994](assets/1531384011994.png)
+![1531384011994](1531384011994.png)
 
 #### What is NumPy
 
@@ -262,7 +263,7 @@ df.head(100).plot()
 plt.show()
 ```
 
-![1531465284221](assets/1531465284221.png)
+![1531465284221](1531465284221.png)
 
 #### Daily returns (日收益)
 
@@ -302,7 +303,7 @@ ax.legend(loc='upper left')
 plt.show()
 ```
 
-![1531632440578](assets/1531632440578.png)
+![1531632440578](1531632440578.png)
 
 #### Using fillna() (数据市场是不完整的，需要补齐)
 
@@ -322,7 +323,7 @@ print(daily_returns.tail(100))
 plt.show()
 ```
 
-![1531634310060](assets/1531634310060.png)
+![1531634310060](1531634310060.png)
 
 [关于证券收益分布原因的讨论](https://www.ricequant.com/community/topic/126/)
 
@@ -340,7 +341,7 @@ plt.axvline(-std, color='r', linestyle='dashed')
 plt.show()
 ```
 
-![1531635134977](assets/1531635134977.png)
+![1531635134977](1531635134977.png)
 
 #### 计算峰度
 

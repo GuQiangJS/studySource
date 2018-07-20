@@ -1,5 +1,5 @@
 ---
-title: machine_learning_for_trading
+title: Machine Learning for Trading
 date: 2018-07-11 17:07:13
 tags:
  - 编程

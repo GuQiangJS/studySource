@@ -14,6 +14,7 @@ categories:
 出版社: 人民邮电出版社
 ISBN: 9787115404459
 出版时间: 2015-12-01
+typora-root-url: python_for_finance
 description: <!—more—->
 ---
 
@@ -71,7 +72,7 @@ df.plot(y='Close')
 plt.show()
 ```
 
-![1531288797710](assets/1531288797710.png)
+![1533087934260](1533087934260.png)
 
 根据每日收盘价返回对数收益率。
 
@@ -79,6 +80,7 @@ plt.show()
 from finance_datareader_py.netease.daily import NetEaseDailyReader
 
 df = NetEaseDailyReader('000002').read()
+df = df.replace(0, np.NaN)
 df['Return'] = df['Close'] / df['Close'].shift(1)
 print(df[['Close', 'Return']].tail())
 ```
@@ -103,7 +105,7 @@ df[['Close', 'Return']].plot(subplots=True, figsize=(8, 5))
 plt.show()
 ```
 
-![1531293738672](assets/1531293738672.png)
+![1533088423103](1533088423103.png)
 
 [移动平均](https://zh.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87)
 
@@ -123,7 +125,7 @@ df[['Close', '42d', '252d']].tail(n=1000).plot(figsize=(8, 5))
 plt.show()
 ```
 
-![1531294064382](assets/1531294064382.png)
+![1533088473653](1533088473653.png)
 
 #### 6.3 回归分析
 
@@ -182,5 +184,5 @@ plt.ylabel('f(x)')
 plt.show()
 ```
 
-![1531297702083](assets/1531297702083.png)
+![1531297702083](1533088496598.png)
 

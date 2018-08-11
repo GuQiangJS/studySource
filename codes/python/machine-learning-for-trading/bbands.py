@@ -1,12 +1,12 @@
 """布林带相关"""
 
-import units
-import datetime
 import pandas as pd
 
+import units
 
-def get_Top_and_Bottom(symbol, start, end, N=20, K=2):
-    """获取满足布林带穿越布林带数据
+
+def get_Upper_and_Lower(symbol, start, end, N=20, K=2):
+    """获取满足穿越布林带的数据
 
     :param symbol:
     :param start:
@@ -16,10 +16,12 @@ def get_Top_and_Bottom(symbol, start, end, N=20, K=2):
     :return:
     """
     df = get_bbands(symbol, start, end, N, K)
-    t = df.query('Close_Adj>=top')
-    t['t'] = 'T'
-    b = df.query('Close_Adj<=bottom')
-    b['t'] = 'B'
+    t = df[(df['Close_Adj'] <= df['top'])
+               & (df['Close_Adj'].shift(1) >= df['top'].shift(1))]
+    t['T'] = 'S'
+    b = df[(df['Close_Adj'] >= df['bottom'])
+               & (df['Close_Adj'].shift(1) <= df['bottom'].shift(1))]
+    b['T'] = 'B'
     return pd.concat([t, b]).sort_index()
 
 
@@ -31,7 +33,7 @@ def get_bbands(symbol, start, end, N=20, K=2):
     :param end:
     :param N: 天数
     :param K: 标准差
-    :return: ''DataFrame''
+    :return: ''DataFrame'':
     """
     df = units.get_datas(symbol, start, end)
     df.sort_index(inplace=True)

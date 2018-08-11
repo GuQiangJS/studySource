@@ -2,25 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a24898-21e4-412a-981d-9f711ae23990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_plot_bbands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/units.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/machine-learning-for-trading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/machine-learning-for-trading.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbands.py" beforeDir="false" afterPath="$PROJECT_DIR$/bbands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_plot_bbands.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_plot_bbands.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../source/_posts/machine-learning-for-trading.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../source/_posts/machine-learning-for-trading.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/machine_learning_for_trading$Unittests_for_test_plot_bbands_MyTestCase.coverage" NAME="Unittests for test_plot_bbands.MyTestCase Coverage Results" MODIFIED="1533991450930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/machine_learning_for_trading$Unittests_in_test_plot_bbands_py.coverage" NAME="Unittests in test_plot_bbands.py Coverage Results" MODIFIED="1533913282066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/machine_learning_for_trading$bbands.coverage" NAME="bbands Coverage Results" MODIFIED="1533915064232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/machine_learning_for_trading$Unittests_for_test_plot_bbands_MyTestCase_test_something.coverage" NAME="Unittests for test_plot_bbands.MyTestCase.test_something Coverage Results" MODIFIED="1533917198077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/machine_learning_for_trading$bbands.coverage" NAME="bbands Coverage Results" MODIFIED="1533970301426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/machine_learning_for_trading$Unittests_for_test_plot_bbands_MyTestCase_test_something.coverage" NAME="Unittests for test_plot_bbands.MyTestCase.test_something Coverage Results" MODIFIED="1533991734043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/machine_learning_for_trading$Unittests_for_test_plot_bbands_MyTestCase_test_plot.coverage" NAME="Unittests for test_plot_bbands.MyTestCase.test_plot Coverage Results" MODIFIED="1533994410424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-826541795">
@@ -59,87 +61,58 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="units.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/units.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="75">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <marker date="1533916037913" expanded="true" signature="1374:1585" ph="..." />
-                <marker date="1533916037913" expanded="true" signature="2036:2037" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_plot_bbands.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_plot_bbands.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            <state relative-caret-position="316">
+              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#999#2542#0" />
+                <element signature="e#1705#1752#0" />
+                <element signature="e#2122#2245#0" />
+                <element signature="e#2376#2687#0" />
+                <element signature="e#1731#2105#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="daily.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/finance_datareader_py/sohu/daily.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/s.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="bbands.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bbands.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="-83">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="38" />
               <folding>
-                <element signature="e#13#25#0" expanded="true" />
-                <marker date="1533916094768" expanded="true" signature="487:492" ph="..." />
+                <element signature="e#13#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/unittest/case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="604" selection-start-line="604" selection-end-line="604" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/eastmoney/daily.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="46" column="27" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="46" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/pandas/core/indexes/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="1742" selection-start-line="1742" selection-end-line="1742" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/csindex/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -164,6 +137,7 @@
         <option value="$PROJECT_DIR$/BBands.py" />
         <option value="$PROJECT_DIR$/units.py" />
         <option value="$PROJECT_DIR$/bbands.py" />
+        <option value="$PROJECT_DIR$/tests/5" />
         <option value="$PROJECT_DIR$/tests/test_plot_bbands.py" />
       </list>
     </option>
@@ -174,10 +148,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="378" />
-    <option name="width" value="1069" />
-    <option name="height" value="867" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="126" />
+    <option name="y" value="23" />
+    <option name="width" value="1273" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,6 +187,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -222,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_plot_bbands.MyTestCase.test_something">
+  <component name="RunManager" selected="Python tests.Unittests for test_plot_bbands.MyTestCase.test_plot">
     <configuration name="bbands" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machine-learning-for-trading" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,9 +220,34 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_plot_bbands.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="machine-learning-for-trading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_plot_bbands.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_plot_bbands.MyTestCase.test_plot" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="machine-learning-for-trading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_plot_bbands.MyTestCase.test_plot&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for test_plot_bbands.MyTestCase.test_something" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="machine-learning-for-trading" />
@@ -258,7 +262,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_plot_bbands.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
     </configuration>
     <configuration name="Unittests in test_plot_bbands.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="machine-learning-for-trading" />
@@ -273,16 +276,19 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_plot_bbands.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in test_plot_bbands.py" />
       <item itemvalue="Python tests.Unittests for test_plot_bbands.MyTestCase.test_something" />
       <item itemvalue="Python.bbands" />
+      <item itemvalue="Python tests.Unittests for test_plot_bbands.MyTestCase" />
+      <item itemvalue="Python tests.Unittests for test_plot_bbands.MyTestCase.test_plot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_plot_bbands.MyTestCase.test_plot" />
         <item itemvalue="Python tests.Unittests for test_plot_bbands.MyTestCase.test_something" />
+        <item itemvalue="Python tests.Unittests for test_plot_bbands.MyTestCase" />
         <item itemvalue="Python.bbands" />
         <item itemvalue="Python tests.Unittests in test_plot_bbands.py" />
       </list>
@@ -302,62 +308,62 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_something - 2018.08.10 at 23h 44m 23s.xml">
-      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_plot - 2018.08.11 at 21h 26m 01s.xml">
+      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_plot" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_something - 2018.08.10 at 23h 44m 48s.xml">
-      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_plot - 2018.08.11 at 21h 26m 22s.xml">
+      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_plot" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_something - 2018.08.10 at 23h 45m 36s.xml">
-      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_plot - 2018.08.11 at 21h 27m 37s.xml">
+      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_plot" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_something - 2018.08.10 at 23h 46m 27s.xml">
-      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_plot - 2018.08.11 at 21h 27m 57s.xml">
+      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_plot" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_something - 2018.08.10 at 23h 47m 35s.xml">
-      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_plot - 2018.08.11 at 21h 29m 10s.xml">
+      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_plot" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_something - 2018.08.10 at 23h 48m 25s.xml">
-      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_plot - 2018.08.11 at 21h 29m 18s.xml">
+      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_plot" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_something - 2018.08.10 at 23h 54m 25s.xml">
-      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_plot - 2018.08.11 at 21h 29m 31s.xml">
+      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_plot" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_something - 2018.08.10 at 23h 55m 26s.xml">
-      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_plot - 2018.08.11 at 21h 32m 30s.xml">
+      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_plot" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_something - 2018.08.10 at 23h 55m 59s.xml">
-      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_plot - 2018.08.11 at 21h 33m 24s.xml">
+      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_plot" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_something - 2018.08.11 at 00h 24m 56s.xml">
-      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_something" configurationId="tests" />
+    <history-entry file="Unittests_for_test_plot_bbands_MyTestCase_test_plot - 2018.08.11 at 21h 33m 32s.xml">
+      <configuration name="Unittests for test_plot_bbands.MyTestCase.test_plot" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="126" y="23" width="1273" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17836677" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3032345" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39487872" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" visible="true" weight="0.47707736" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34560907" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09748172" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.46303818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3243626" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,155 +374,262 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/bbands.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
+      <option name="time" value="31" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="df_bbands.at[date, 'T']" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>df.loc['2017-02-20']['Close_Adj']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df.at['2017-02-20','Close_Adj']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df.at['2017-02-20':'Close_Adj']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df.at['2017-02-20']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df.at[datetime.date(2017,2,20),'Close_Adj']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>symbol=='601336'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>symbol=='600271'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>'600016'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>df</expression-string>
+        <expression-string>df.loc['2017-03-03']['Close_Adj']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df=df.rename(columns={'Close_Adj 1':'Close_Adj_1'})</expression-string>
+        <expression-string>df.at['2017-03-03','Close_Adj']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df.query('Close_Adj&gt;=top &amp;&amp; Close_Adj&gt;(Close_Adj 1)')</expression-string>
+        <expression-string>df.at['2017-03-03']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df.query('Close_Adj&gt;=top &amp;&amp; Close_Adj&gt;(Close_Adj+1)')</expression-string>
+        <expression-string>df.at['2017-3-3','Close_Adj']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df.query('Close_Adj&gt;=top &amp;&amp; Close_Adj&gt;Close_Adj+1')</expression-string>
+        <expression-string>df.loc['2017-02-17'].name</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df.query('Close_Adj&gt;=top &amp; Close_Adj&gt;Close_Adj_1')</expression-string>
+        <expression-string>df.loc['2017-02-17']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df.rename(columns={'Close_Adj 1':'Close_Adj_1'},inplace=True)</expression-string>
+        <expression-string>df.loc['2017-02-17'].index</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df.query('Close_Adj&gt;=top &amp; Close_Adj&gt;Close_Adj 1')</expression-string>
+        <expression-string>df.at['2017-02-17']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df.query('Close_Adj&gt;=top and Close_Adj&gt;Close_Adj 1')</expression-string>
+        <expression-string />
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_plot_bbands.py">
+    <entry file="file://$PROJECT_DIR$/units.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="75">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/hexun/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/csindex/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pandas/core/indexes/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="1742" selection-start-line="1742" selection-end-line="1742" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/sohu/daily.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/eastmoney/daily.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="46" column="27" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="46" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="604" selection-start-line="604" selection-end-line="604" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/x.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/600000.csv">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_plot_bbands.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        <state relative-caret-position="150">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/units.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1533916037913" expanded="true" signature="1374:1585" ph="..." />
-            <marker date="1533916037913" expanded="true" signature="2036:2037" ph="..." />
+            <element signature="e#999#2542#0" />
+            <element signature="e#1705#1752#0" />
+            <element signature="e#2122#2245#0" />
+            <element signature="e#2376#2687#0" />
+            <element signature="e#1731#2105#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bbands.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="435">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding>
+            <element signature="e#13#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/units.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_plot_bbands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#999#2542#0" />
+            <element signature="e#1705#1752#0" />
+            <element signature="e#2122#2245#0" />
+            <element signature="e#2376#2687#0" />
+            <element signature="e#1731#2105#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bbands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
           <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding>
-            <element signature="e#13#25#0" expanded="true" />
-            <marker date="1533916094768" expanded="true" signature="487:492" ph="..." />
+            <element signature="e#13#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_plot_bbands.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/__init__.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/csindex/__init__.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pandas/core/indexes/base.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/sohu/daily.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/finance_datareader_py/eastmoney/daily.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/unittest/case.py" />
+    <entry file="file://$PROJECT_DIR$/units.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/600000_bbands.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/600000.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="40" column="72" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="604" selection-start-line="604" selection-end-line="604" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bbands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#13#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1701" selection-start-column="1701" selection-end-column="1701" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/finance_datareader_py/sohu/daily.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/s.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_plot_bbands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#999#2542#0" />
+            <element signature="e#1705#1752#0" />
+            <element signature="e#2122#2245#0" />
+            <element signature="e#2376#2687#0" />
+            <element signature="e#1731#2105#0" />
           </folding>
         </state>
       </provider>

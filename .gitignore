@@ -1,4 +1,4 @@
-
 .deploy_git/
 public/
 codes/python/machine-learning-for-trading/.idea/
+codes/python/**/.idea/

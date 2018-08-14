@@ -79,6 +79,6 @@ theme: hexo-theme-next-6.2.0
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/GuQiangJS/Study.git
+  repo: https://gh_token@github.com/GuQiangJS/Study.git
   branch: [master]
   message:

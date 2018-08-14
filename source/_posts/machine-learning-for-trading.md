@@ -1,6 +1,7 @@
 ---
 title: Machine Learning for Trading
 date: 2018-07-11 17:07:13
+updated: 2018-08-14
 tags:
  - 编程
  - Python

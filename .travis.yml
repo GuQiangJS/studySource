@@ -8,8 +8,6 @@ install:
    # 安装hexo及插件
    - npm install -g hexo-cli
 script:
-   # 清除
-   - hexo clean
    # 生成
    - hexo g
 after_script:

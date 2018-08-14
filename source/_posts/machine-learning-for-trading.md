@@ -911,7 +911,7 @@ CAPM模型是建立在一系列假设的基础上的，其中主要包括：
 
 * [布林带](https://zh.wikipedia.org/wiki/%E5%B8%83%E6%9E%97%E5%B8%A6) 
 
-  {% blockquote 移动平均 https://zh.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87%}
+  {% blockquote 移动平均 https://zh.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87 %}
 
   “布林带”是这样定义的：
 
@@ -964,3 +964,56 @@ CAPM模型是建立在一系列假设的基础上的，其中主要包括：
 >
 > 代码：https://github.com/GuQiangJS/studySource/blob/master/codes/python/machine-learning-for-trading/tests/test_plot_bbands.py
 
+### 数据分析
+
+#### Survior bias
+
+https://youtu.be/RCB2hkiwqnA
+
+>  使用同样的时间间隔分析同一成分股集合时，选取成分股集合的时间点会造成不同的结果。采用分析时间结束时的成分股集合时会得到更加漂亮、诱人、但不真实的结果。**应该选取分析时间开始时的集合**。
+
+![1534238787357](1534238787357.png)
+
+#### 效率市场假说
+
+{% blockquote 效率市场假说 https://zh.wikipedia.org/wiki/%E6%95%88%E7%8E%87%E5%B8%82%E5%A0%B4%E5%81%87%E8%AA%AA %}
+
+* 弱式效率（Weak Form Efficiency）
+
+  目前股票价格已充分反映了过去股票价格所提供的各项情报。所以，投资人无法再运用各种方法对过去股票价格进行分析，再利用分析结果来预测未来股票价格，基于随机游走假说，未来消息是随机而来的。意即投资者无法再利用过去资讯来获得高额报酬。所以，弱势效率越高，若以过去价量为基础的技术分析来进行预测效果将会十分不准确。
+
+  > 留下了可以从事基本面分析的口子。
+
+* 半强式效率（Semi-Strong Form Efficiency）
+
+  目前股票价格已充分反应了所有公开资讯，所以，投资者无法利用情报分析结果来进行股票价格预测而获取高额报酬。因此，半强式效率越高，依赖公开的财务报表、经济情况及政治情势来进行基本面分析，然后再预测股票价格是徒劳无功。
+
+  > 连基本面分析都不行了。只能通过内幕交易了。
+
+* 强式效率（Strong Form Efficiency）
+
+  目前股票价格充分反应了所有已公开和未公开之所有情报。虽然情报未公开，但投资者能利用各种管道来获得资讯，所以，所谓未公开的消息，实际上是已公开的资讯且已反应于股票价格上。此种情形下，投资者也无法因拥有某些股票内幕消息而获取高额报酬。 
+
+  > 连内部交易都没机会了。
+
+{% endblockquote %}
+
+#### Grinold's fundamental law
+
+https://youtu.be/W6yUgs1OLx0
+
+$performance=Skill \times \sqrt{breadth}$
+
+### 数据特征缩放
+
+**标准化：** $normed={values-mean \over values.std()}$
+
+标准化后，数据均值为0，数值将在 -1 和 1 之间变化。
+
+{% blockquote 重新缩放 https://zh.wikipedia.org/wiki/%E7%89%B9%E5%BE%B5%E7%B8%AE%E6%94%BE %}
+
+最简单的方式是重新缩放特征的范围到[0, 1]或[-1, 1]， 依据原始的资料选择目标范围，通式如下：$ x'={x-min(x) \over max(x)-min(x)}$
+
+$x$ 是原始的值，$x'$ 是被标准化后的值。例如，假设我们有学生的体重资料，范围落在[160磅, 200磅]，为了重新缩放这个资料，我们会先将每个学生的体重减掉160，接着除与40(最大体重与最小体重的差值) 
+
+{% endblockquote %}

@@ -2,6 +2,7 @@
 title: 一些个人常用的网站集合
 description: <!--more-->
 updated: 2018-04-24
+date: 2018-04-24
 photos:
  - /2018/04/24/website/website.png
 ---

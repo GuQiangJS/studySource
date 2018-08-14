@@ -20,6 +20,3 @@ after_script:
    - git add .
    - git commit -m "Update docs"
    - git push --force --quiet "https://${GITHUB_TOKEN}@${GIT_PAGE_REF}" master:master
-branches:
-  only:
-    - master

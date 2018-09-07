@@ -1,7 +1,7 @@
 ---
 title: Machine Learning for Trading
 date: 2018-07-11 17:07:13
-updated: 2018-08-14
+updated: 2018-09-03
 tags:
  - 编程
  - Python
@@ -844,7 +844,7 @@ CAPM模型是建立在一系列假设的基础上的，其中主要包括：
 
 * 动量（momentum）
 
-  {% blockquote 运动量震荡指标 https://zh.wikipedia.org/wiki/%E9%81%8B%E5%8B%95%E9%87%8F%E9%9C%87%E7%9B%AA%E6%8C%87%E6%A8%99%}
+  {% blockquote 运动量震荡指标 https://zh.wikipedia.org/wiki/%E9%81%8B%E5%8B%95%E9%87%8F%E9%9C%87%E7%9B%AA%E6%8C%87%E6%A8%99 %}
 
   $MO_t=(P_t/P_{t-n})*100$
   其中 $n$ 為天數，$P_t$ 為當日股價，$P_{t-n} $ 為  $n$ 日前的股價
@@ -866,7 +866,7 @@ CAPM模型是建立在一系列假设的基础上的，其中主要包括：
 
   ![1533886709495](1533886709495.png)
 
-  {% blockquote 移动平均 https://zh.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87%}
+  {% blockquote 移动平均 https://zh.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87 %}
 
   * **简单移动平均**（英语：simple moving average，SMA）是某变数之前 $n$ 个数值的未作加权算术平均。例如，收市价的10日简单移动平均指之前10日收市价的平均数。若设收市价为 $p_{1}$至 $p_{n}$，则方程式为：
 
@@ -1003,6 +1003,41 @@ https://youtu.be/RCB2hkiwqnA
 https://youtu.be/W6yUgs1OLx0
 
 $performance=Skill \times \sqrt{breadth}$
+
+#### 通过协方差构建投资组合（获得相同回报，但降低波动性）
+
+[现代投资组合理论](https://zh.wikipedia.org/wiki/%E7%8E%B0%E4%BB%A3%E6%8A%95%E8%B5%84%E7%BB%84%E5%90%88%E7%90%86%E8%AE%BA)
+
+### 机器学习
+
+#### 监督回归学习
+
+* 线性回归（参数式）
+* [最近邻居法](https://zh.wikipedia.org/wiki/%E6%9C%80%E8%BF%91%E9%84%B0%E5%B1%85%E6%B3%95)（实例式）
+* 决策树
+* 决策森林
+
+#### Price forecasting demo
+
+https://youtu.be/GVOEnkjmBZU
+
+![1535439244770](1535439244770.png)
+
+#### 强化学习
+
+### 过拟合
+
+#### 集成学习 ([Ensemble learning](https://en.wikipedia.org/wiki/Ensemble_learning))
+
+![1536045019373](1536045019373.png)
+
+#### Bagging算法([Bootstrap aggregating](https://zh.wikipedia.org/wiki/Bagging%E7%AE%97%E6%B3%95))
+
+#### [AdaBoost](https://zh.wikipedia.org/wiki/AdaBoost)
+
+https://www.youtube.com/watch?v=GM3CDQfQ4sw&list=PLAwxTw4SYaPnIRwl6rad_mYwEk4Gmj7Mx&index=194
+
+
 
 ### 数据特征缩放
 

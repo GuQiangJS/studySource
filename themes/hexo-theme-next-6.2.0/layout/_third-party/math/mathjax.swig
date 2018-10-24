@@ -12,8 +12,8 @@
     MathJax.Hub.Queue(function() {
       var all = MathJax.Hub.getAllJax(), i;
         for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
         }
     });
 </script>
 <script type="text/javascript" src="{{ theme.math.mathjax.cdn }}"></script>
+<style type="text/css">.MathJax_Display {display:inline!important;}</style>

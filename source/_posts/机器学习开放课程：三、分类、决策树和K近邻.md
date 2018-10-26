@@ -76,7 +76,6 @@ C4.5算法是由Ross Quinlan开发的用于产生决策树的算法。该算法�
 相关类及方法：
 
 * [sklearn.tree.DecisionTreeClassifier](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn-tree-decisiontreeclassifier) 决策树分类器
-
 * [sklearn.tree.DecisionTreeClassifier.fit](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier.fit) 使用数据填充决策树分类器
 * [sklearn.tree.DecisionTreeClassifier.predict](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier.predict) 回归测试准确率
 * [sklearn.metrics.accuracy_score](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html) 计算分类得分

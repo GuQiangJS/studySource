@@ -67,6 +67,36 @@ C4.5算法是由Ross Quinlan开发的用于产生决策树的算法。该算法�
 
 **基尼不确定性和信息增益的效果差不多。**
 
+##### 决策树示例
+
+下面使用决策树分析患者的检查结果来分析心血管疾病(CVD)的存在是否有关系。
+
+数据来源：[](mlbootcamp5_train.csv)
+
+相关类及方法：
+
+* [sklearn.tree.DecisionTreeClassifier](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn-tree-decisiontreeclassifier) 决策树分类器
+
+* [sklearn.tree.DecisionTreeClassifier.fit](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier.fit) 使用数据填充决策树分类器
+* [sklearn.tree.DecisionTreeClassifier.predict](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier.predict) 回归测试准确率
+* [sklearn.metrics.accuracy_score](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html) 计算分类得分
+* [sklearn.tree.export_graphviz](http://scikit-learn.org/stable/modules/generated/sklearn.tree.export_graphviz.html)
+
+| 特征                                          |                    | 特征类型 | 列名        | 列数据类型                                       |
+| --------------------------------------------- | ------------------ | -------- | ----------- | ------------------------------------------------ |
+| Age                                           | 年龄               | 客观特征 | age         | int (days)                                       |
+| Height                                        | 身高               | 客观特征 | height      | int (cm)                                         |
+| Weight                                        | 体重               | 客观特征 | weight      | float (kg)                                       |
+| Gender                                        | 性别               | 客观特征 | gender      | categorical code （1 – woman, 2 – man）          |
+| Systolic blood pressure                       | 收缩压             | 检查特征 | ap_hi       | int                                              |
+| Diastolic blood pressure                      | 舒张压             | 检查特征 | ap_lo       | int                                              |
+| Cholesterol                                   | 胆固醇             | 检查特征 | cholesterol | 1: normal, 2: above normal, 3: well above normal |
+| Glucose                                       | 葡萄糖             | 检查特征 | gluc        | 1: normal, 2: above normal, 3: well above normal |
+| Smoking                                       | 是否吸烟           | 主观特征 | smoke       | binary                                           |
+| Alcohol intake                                | 是否喝酒           | 主观特征 | alco        | binary                                           |
+| Physical activity                             | 体力劳动           | 主观特征 | active      | binary                                           |
+| Presence or absence of cardiovascular disease | 是否存在心血管疾病 | 目标特征 | cardio      | binary                                           |
+
 按照年龄来区分放贷情况：
 
 > 以下代码需要：
@@ -77,51 +107,87 @@ C4.5算法是由Ross Quinlan开发的用于产生决策树的算法。该算法�
 > - pydotplus *先安装 graphviz*
 
 ```python
-import pandas as pd
-from sklearn.tree import DecisionTreeClassifier, export_graphviz
-import io
+from io import BytesIO
 from io import StringIO
+import pandas as pd
 import pydotplus
 from PIL import Image
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import export_graphviz
 
-data = pd.DataFrame({'Age': [17, 64, 18, 20, 38, 49, 55, 25, 29, 31, 33],
-                     'Loan Default': [1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1]})
-# 根据年龄进行升序排列
-print(data.sort_values('Age'))
 
-age_tree = DecisionTreeClassifier(random_state=17)
-age_tree.fit(data['Age'].values.reshape(-1, 1), data['Loan Default'].values)
-dot_data = StringIO()
-export_graphviz(age_tree, feature_names=['Age'],
-                out_file=dot_data, filled=True)
-graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
-image = Image.open(io.BytesIO(graph.create_png()))
-image.show()
+def S(X, Y, criterion='gini'):
+    """显示决策树的决策过程的方法
+
+    :param X: 训练集。
+    :param Y: 结果集。
+    :param criterion: 衡量指标。与 `sklearn.tree.DecisionTreeClassifier` 一致。默认为 `gini`。 也可以使用 `entropy`。
+    :return:
+    """
+    # 以深度为3层来创建决策树分类器
+    tree_model = DecisionTreeClassifier(criterion=criterion, max_depth=3)
+    # 从训练集（X，y）构建决策树分类器。
+    tree_model.fit(X, Y)
+    return tree_model
+
+
+def showImg(tree, feature_names=None):
+    """显示决策树"""
+    dot_data = StringIO()
+    # 导出决策树为 DOT 格式
+    export_graphviz(tree, feature_names=feature_names, out_file=dot_data, filled=True)
+    graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
+    image = Image.open(BytesIO(graph.create_png()))
+    image.show()
+
+if __name__ == '__main__':
+    df = pd.read_csv('mlbootcamp5_train.csv', index_col='id', sep=';')
+
+    # # 使用sklearn.model_selection.train_test_split将数据拆分成训练集和测试集
+    # # 使用3/7比率
+    X_train, X_valid, Y_train, Y_valid = train_test_split(df.drop(columns=['cardio']), df['cardio'], test_size=0.3)
+
+    # 按照 基尼不纯度 分割的决策树
+    tree_gini = S(X_train, Y_train);
+    # 按照 信息熵 分割的决策树
+    tree_entropy = S(X_train, Y_train, 'entropy')
+
+    showImg(tree_gini, X_train.columns)
+    showImg(tree_entropy, X_train.columns)
+```
+
+* 按照基尼不纯度分割：
+
+![NZXca6g](NZXca6g.png)
+
+* 按照信息熵分割：
+
+![3VT+hGyI](3VT+hGyI.png)
+
+无论按照哪种方式分割，都可以看到，随着叶子节点的不断展开，基尼不纯度或者信息熵都会不断下降。
+
+计算分类回归准确率：
+
+```
+def V(tree, X, Y):
+    """验证结果准确度"""
+    y_pred = tree.predict(X)
+    return accuracy_score(y_pred=y_pred, y_true=Y)
+    
+    
+if __name__ == '__main__':
+    print(V(tree_gini, X_valid, Y_valid))
+    print(V(tree_entropy, X_valid, Y_valid))
 ```
 
 ```
-    Age  Loan Default
-0    17             1
-2    18             1
-3    20             0
-7    25             1
-8    29             1
-9    31             0
-10   33             1
-4    38             1
-5    49             0
-6    55             0
-1    64             0
+0.7282857142857143
+0.7269047619047619
 ```
 
-从树上可以看出，*基尼不确定性* 在不断的下降。
 
-阈值切割示例：
-
-- 43.5 -> 49岁及以上都是0，这是使用 (38+49)/2=43.5
-- 19 -> 18岁及以下都是1，这时使用 (18+20)/2=19
-
-![基尼不确定性的下降](tmp_w3pmy_5.png)
 
 
 

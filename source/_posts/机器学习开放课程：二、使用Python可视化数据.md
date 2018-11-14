@@ -6,10 +6,14 @@ tags:
  - 编程
  - Python
  - 机器学习
+ - pandas
+ - matplotlib
+ - seaborn
 categories:
  - 编程
  - Python
  - 机器学习
+ - 可视化
 typora-root-url: 机器学习开放课程：二、使用Python可视化数据
 mathjax: true
 description: <!—more—->

@@ -20,9 +20,17 @@ description: <!—more—->
 
 ### [演示内容](http://nbviewer.jupyter.org/github/GuQiangJS/Study/blob/master/2018/11/14/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%BC%80%E6%94%BE%E8%AF%BE%E7%A8%8B%EF%BC%9A%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8Pandas%E6%8E%A2%E7%B4%A2%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/telecom_churn.ipynb)
 
-
+### 作业
 
 分析包含美国居民的人口信息的UCI成人数据。[作业](http://nbviewer.jupyter.org/github/GuQiangJS/Study/blob/master/2018/11/14/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%BC%80%E6%94%BE%E8%AF%BE%E7%A8%8B%EF%BC%9A%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8Pandas%E6%8E%A2%E7%B4%A2%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/assignment01_pandas_uci_adult.ipynb)
+
+### 其他相关
+
+* [assignment1_pandas_olympic.ipynb](http://nbviewer.jupyter.org/github/GuQiangJS/Study/blob/master/2018/11/14/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%BC%80%E6%94%BE%E8%AF%BE%E7%A8%8B%EF%BC%9A%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8Pandas%E6%8E%A2%E7%B4%A2%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/assignment1_pandas_olympic.ipynb)
+
+* [topic1_practice_pandas_titanic.ipynb](http://nbviewer.jupyter.org/github/GuQiangJS/Study/blob/master/2018/11/14/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%BC%80%E6%94%BE%E8%AF%BE%E7%A8%8B%EF%BC%9A%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8Pandas%E6%8E%A2%E7%B4%A2%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/topic1_practice_pandas_titanic.ipynb)
+
+* [topic1_practice_pandas_titanic_solution.ipynb](http://nbviewer.jupyter.org/github/GuQiangJS/Study/blob/master/2018/11/14/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%BC%80%E6%94%BE%E8%AF%BE%E7%A8%8B%EF%BC%9A%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8Pandas%E6%8E%A2%E7%B4%A2%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/topic1_practice_pandas_titanic_solution.ipynb)
 
 
 

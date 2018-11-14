@@ -1,7 +1,7 @@
 ---
 title: 机器学习开放课程：一、使用Pandas探索数据分析
-date: 2018-10-14 08:55:13
-updated: 2018-10-14
+date: 2018-11-14 08:55:13
+updated: 2018-11-14
 tags:
  - 编程
  - Python
@@ -18,11 +18,11 @@ description: <!—more—->
 
 
 
-### [演示内容](telecom_churn.ipynb)
+### [演示内容](https://github.com/GuQiangJS/Study/blob/master/2018/11/14/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%BC%80%E6%94%BE%E8%AF%BE%E7%A8%8B%EF%BC%9A%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8Pandas%E6%8E%A2%E7%B4%A2%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/telecom_churn.ipynb)
 
 
 
-分析包含美国居民的人口信息的UCI成人数据。[作业](assignment01_pandas_uci_adult.ipynb)
+分析包含美国居民的人口信息的UCI成人数据。[作业](https://github.com/GuQiangJS/Study/blob/master/2018/11/14/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%BC%80%E6%94%BE%E8%AF%BE%E7%A8%8B%EF%BC%9A%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8Pandas%E6%8E%A2%E7%B4%A2%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/assignment01_pandas_uci_adult.ipynb)
 
 
 

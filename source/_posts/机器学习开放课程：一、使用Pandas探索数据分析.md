@@ -33,3 +33,7 @@ description: <!—more—->
 - [Pandas cheatsheet PDF](https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf) (pandas速查表)
 - GitHub仓库：[Pandas exercises](https://github.com/guipsamora/pandas_exercises/)（Pandas练习）和[Effective Pandas](https://github.com/TomAugspurger/effective-pandas)
 - [scipy-lectures.org](http://www.scipy-lectures.org/index.html) pandas、numpy、matplotlib、scikit-learn教程
+
+
+
+> 课程来源：https://www.jqr.com/article/000079

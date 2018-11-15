@@ -10,15 +10,12 @@ tags:
  - matplotlib
  - seaborn
 categories:
- - 编程
- - Python
  - 机器学习
- - 可视化
 typora-root-url: 机器学习开放课程：二、使用Python可视化数据
 mathjax: true
 description: <!—more—->
 ---
 
-
+学习来源：[https://www.jqr.com/article/000086](https://www.jqr.com/article/000086)
 
 ### 其他相关

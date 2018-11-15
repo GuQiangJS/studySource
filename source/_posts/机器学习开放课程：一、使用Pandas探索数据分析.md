@@ -9,15 +9,13 @@ tags:
  - pandas
  - matplotlib
 categories:
- - 编程
- - Python
  - 机器学习
 typora-root-url: 机器学习开放课程：一、使用Pandas探索数据分析
 mathjax: true
 description: <!—more—->
 ---
 
-
+学习来源：[https://www.jqr.com/article/000079](https://www.jqr.com/article/000079)
 
 以下内容演示了基本的 `pandas`，`matplotlib`的操作。
 

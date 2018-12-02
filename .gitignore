@@ -3,3 +3,4 @@ public/
 codes/python/machine-learning-for-trading/.idea/
 codes/python/**/.idea/
 source/_posts/**/.ipynb_checkpoints/
+.idea/

@@ -7,7 +7,6 @@ ISBN: 9787508660752
 版次: 2
 description: <!--more-->
 photos:
-- /2018/05/02/rljs/rljs.png
 
 tags:
 

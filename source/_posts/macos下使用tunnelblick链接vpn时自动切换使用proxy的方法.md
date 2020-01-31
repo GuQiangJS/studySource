@@ -1,5 +1,5 @@
---
-title: macos下使用tunnelblick链接vpn时自动切换使用proxy的方法.md
+---
+title: macos下使用tunnelblick链接vpn时自动切换使用proxy的方法
 date: 2020-01-31
 updated: 2020-01-31
 tags:
@@ -7,7 +7,7 @@ tags:
  - openvpn
  - tunnelblick
  - pac
- -proxy
+ - proxy
 categories:
  - 系统设置
 mathjax: true

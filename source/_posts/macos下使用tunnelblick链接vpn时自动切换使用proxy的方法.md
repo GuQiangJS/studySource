@@ -7,7 +7,7 @@ tags:
  - openvpn
  - tunnelblick
  - pac
-  -proxy
+ -proxy
 categories:
  - 系统设置
 mathjax: true

@@ -1,5 +1,5 @@
 ---
-title: macos下使用tunnelblick链接vpn时自动切换使用proxy的方法
+title: macos下使用tunnelblick链接vpn时自动设置proxy的方法
 date: 2020-01-31
 updated: 2020-01-31
 tags:
@@ -32,7 +32,7 @@ description: <!—more—->
     sudo networksetup -setautoproxystate "Wi-Fi" on
     sudo networksetup -setautoproxyurl "Wi-Fi" http://192.168.1.255:1080/pac on
     ```
-  
+    
     2. `post-disconnect.sh`内容如下：
     ```bash
     #!/bin/bash
@@ -43,6 +43,6 @@ description: <!—more—->
   ```bash
   chmod u,g+x /Users/GuQiang/Desktop/connected.sh /Users/GuQiang/Desktop/post-disconnect.sh
   ```
-3. 将两份文件一并放在`/Users/GuQiang/Library/Application Support/Tunnelblick/Configurations/openvpn_setting.tblk/Contents/Resources`下即可。
+3. 将两份文件一并放在 `/Users/GuQiang/Library/Application Support/Tunnelblick/Configurations/openvpn_setting.tblk/Contents/Resources` 下即可。
 
 > 设定方法原始来源：https://groups.google.com/forum/#!msg/tunnelblick-discuss/C7hu6370dtc/xOA706tcAAAJ

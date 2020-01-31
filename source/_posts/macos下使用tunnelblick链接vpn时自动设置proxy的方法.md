@@ -26,23 +26,24 @@ description: <!—more—->
 
 1. 分别创建两份文件：
 
-    1. `connected.sh`内容如下：
-    ```bash
-    #!/bin/bash
-    sudo networksetup -setautoproxystate "Wi-Fi" on
-    sudo networksetup -setautoproxyurl "Wi-Fi" http://192.168.1.255:1080/pac on
-    ```
+- `connected.sh`内容如下：
+```bash
+#!/bin/bash
+sudo networksetup -setautoproxystate "Wi-Fi" on
+sudo networksetup -setautoproxyurl "Wi-Fi" http://192.168.1.255:1080/pac on
+```
     
-    2. `post-disconnect.sh`内容如下：
-    ```bash
-    #!/bin/bash
-    sudo networksetup -setautoproxystate "Wi-Fi"  off
-    ```
+- `post-disconnect.sh`内容如下：
+```bash
+#!/bin/bash
+sudo networksetup -setautoproxystate "Wi-Fi"  off
+```
   
-2. 为两份文件赋权限：`chmod u,g+x`
-  ```bash
-  chmod u,g+x /Users/GuQiang/Desktop/connected.sh /Users/GuQiang/Desktop/post-disconnect.sh
-  ```
+2. 为两份文件赋权限：`u,g+x`
+```bash
+chmod u,g+x /Users/GuQiang/Desktop/connected.sh /Users/GuQiang/Desktop/post-disconnect.sh
+```
+
 3. 将两份文件一并放在 `/Users/GuQiang/Library/Application Support/Tunnelblick/Configurations/openvpn_setting.tblk/Contents/Resources` 下即可。
 
 > 设定方法原始来源：https://groups.google.com/forum/#!msg/tunnelblick-discuss/C7hu6370dtc/xOA706tcAAAJ
